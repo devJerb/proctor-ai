@@ -1,0 +1,48 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+
+matplotlib~=3.7.2
+numpy~=1.25.0
+opencv-python~=4.8.0.74
+Pillow~=10.0.0
+PyYAML~=6.0
+requests~=2.31.0
+scipy~=1.11.1
+torch~=2.0.1
+torchvision~=0.15.2
+tqdm~=4.65.0
+
+# plotting ------------------------------------
+
+pandas~=2.0.3
+seaborn~=0.12.2
+
+# deep_sort -----------------------------------
+
+easydict~=1.10
+
+# torchreid -----------------------------------
+
+Cython~=0.29.36
+yacs~=0.1.8
+gdown~=4.7.1
+
+# speech_recognition --------------------------
+
+setuptools~=65.5.1
+pyttsx3~=2.90
+PyAudio~=0.2.13
+
+# gui -----------------------------------------
+
+customtkinter==5.2.0
+db-sqlite3
+
+# Export --------------------------------------
+
+#onnx>=1.9.0  # ONNX export
+#onnx-simplifier>=0.4.1  # ONNX simplifier
+#tensorflow>=2.4.1  # TFLite export (or tensorflow-cpu, tensorflow-aarch64)
+#openvino-dev  # OpenVINO export
+#git+https://github.com/PINTO0309/openvino2tensorflow #OpenVINO to TFLite export
